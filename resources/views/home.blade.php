@@ -39,5 +39,6 @@
         v3.0 <br>
         close 2 issue
         close 1 issue
+        close #7
     </div>
 @endsection
