@@ -3,11 +3,6 @@
 @section('content')
     <div class="container mt-5">
         <div class="mt-5">
-            <a href="{{ route('reviews.create') }}" class="btn btn-primary">Create a Review</a>
-            <a href="{{ route('reservations.create') }}" class="btn btn-primary">Make a Booking</a>
-        </div>
-
-        <div class="mt-5">
             <h2>Customer Reviews</h2>
             @if(count($reviews) > 0)
                 <div class="row">
@@ -27,15 +22,5 @@
                 <p>No reviews yet. Be the first to leave a review!</p>
             @endif
         </div>
-        <h2>Ver log</h2>
-        this is homepage
-        close issue #4
-        fix <br>
-        added auth
-        v1.0 <br>
-        added booking system
-        v2.0 <br>
-        integrate reviews with database
-        v3.0 <br>
     </div>
 @endsection

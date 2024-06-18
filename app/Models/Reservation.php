@@ -5,14 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Review extends Model
+class Reservation extends Model
 {
     use HasFactory;
-    public $timestamps = false;
-
 
     protected $fillable = [
-        'customer_name', 'star_rating', 'comment',
+        'name', 'active_phone_number', 'type_of_service', 'date_and_time',
     ];
 }
 

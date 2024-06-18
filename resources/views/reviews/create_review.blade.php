@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salon Reviews</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-</head>
+@extends('layouts.master')
+
+@section('content')
 <body>
 <div class="container mt-5">
     <h1>Salon Reviews</h1>
@@ -41,9 +36,9 @@
             @foreach($reviews as $review)
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">{{ $review['CustomerName'] }}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Rating: {{ $review['StarRating'] }} / 5</h6>
-                        <p class="card-text">{{ $review['Comment'] }}</p>
+                        <h5 class="card-title">{{ $review->customer_name }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Rating: {{ $review->star_rating }} / 5</h6>
+                        <p class="card-text">{{ $review->comment }}</p>
                     </div>
                 </div>
             @endforeach
@@ -53,4 +48,4 @@
     </div>
 </div>
 </body>
-</html>
+@endsection
