@@ -11,6 +11,9 @@
     this is homepage
     close issue #4
     fix
+    added auth
     v1.0
+    added booking system
+    v2.0
 </body>
 </html>
