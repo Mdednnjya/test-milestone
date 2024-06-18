@@ -37,5 +37,6 @@
         v2.0 <br>
         integrate reviews with database
         v3.0 <br>
+        close 2 issue
     </div>
 @endsection
