@@ -43,5 +43,6 @@
         close 2 issue
         close 1 issue
         close 2 issue
+        git add auth
     </div>
 @endsection
