@@ -40,5 +40,6 @@
         close 2 issue
         close 1 issue
         close #7
+        close 2 issue
     </div>
 @endsection
