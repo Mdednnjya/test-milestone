@@ -44,5 +44,6 @@
         close 1 issue
         close 2 issue
         git add auth
+        git progress auth
     </div>
 @endsection
