@@ -45,5 +45,6 @@
         close 2 issue
         git add auth
         git progress auth
+        git test 1 commit msg to 2 issue
     </div>
 @endsection
